@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Scada:400,700);
+
+a {
+	color: black;
+	font-family: 'Scada';
+	&:hover {
+		opacity: 0.5;
+	}
+	&:link {
+		text-decoration: none;
+	}
+
+	&:visited {
+		text-decoration: none;
+	}
+}
+body{
+	font-family: 'Scada', serif;
+	
+	.container {
+
+		#header {
+			margin: 50px 0px;
+			text-align: center;
+			
+			#centre-image {
+				display: inline-block;
+			}
+
+			.header{
+				display: inline-block;
+				width: 35%;
+				
+				.top-line{
+					width: 100%;
+					border-top: solid 2px #9FA1B2;
+				}
+
+
+			&.left {
+				margin-right: 10px;
+			}
+				
+			&.right {
+				margin-left: 10px;
+			}
+
+				.nav {
+
+					ul {
+						font-size: 20px;
+						margin: 0;
+						padding: 0;
+
+						li {
+							display: inline-block;
+							padding: 20px;
+							
+						
+						&:nth-child(odd) {
+							margin-right: 20px;
+						}
+
+						&:nth-child(even) {
+							margin-left: 20px;
+						}
+
+						}
+					}
+				}
+			}
+		}
+	}
+}

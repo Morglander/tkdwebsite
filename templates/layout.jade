@@ -1,0 +1,11 @@
+doctype html
+html(land="en")
+	include ./partials/_head.jade
+	
+	body
+		.container
+			include ./partials/_nav.jade
+		
+			block content
+
+			script(type="text/javascript" src='static/js/content.js')
